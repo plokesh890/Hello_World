@@ -1,0 +1,91 @@
+GET method: 
+The data sent through the get method is visible in the URL.
+This data can be stored in the browser because the URL has the data.
+The data sent through this method is limited.
+It allows ASCII characters only.
+
+POST method:
+The data sent through this method is not visible.
+This method can be used where the page is dealing with password.
+No restrictions on data sent through this method.
+No restrictions on format of data sent.
+
+
+
+HEAD method:
+This method is identical to GETmethod but the server does not return body as a response.
+The server returns the meta information in header of the requested component.
+
+
+PUT method:
+The PUT method requests that the enclosed entity be stored under the supplied Request-URI.
+It also updates the resource under requested URI.
+
+
+DELETE method:
+This method requests the server to delete the resource which is identified by URI.
+
+
+OPTIONS method:
+This method returns all the methods and operations which are supported by the server.
+It allows the client to determine the options associated with a resource without iniating resource retrieval
+
+
+
+URI:
+URI stands for Uniform Resource Identifer.
+It is used to locate or identify a resource. 
+
+URL:
+URL stands for Uniform Resource Locator.
+This is one type of URI.
+It contains the protocol or method to follow to get to a specified resource.
+
+
+URN:
+URN stands for Uniform Resource Name.
+It just represents the name of a resource.
+It doesn't give any information about the location or a method to access the resource.
+
+
+Server:
+	It is a device with programs or protocols that provide services which are requested by clients to perform particular task. Each web application has it's own server.
+
+Types of servers:
+1. Application Server: It provides business logic for the specific application. It resides between database server and end user.
+2.Audio/Video Server: It contains media such as audio and video which the user can access through streaming or by downloading.
+3.FTP Server: It provides file transfer between client and server ensuring security and transfer protocol in a computer network.
+4.Mail Server: It provides the service to exchange mails between users through LAN, WAN or Internet connection.
+5.Web Server: It stores, processes and delivers web pages to clients using HTTP protocol. It stores the websites components such as HTML, CSS and JS files.
+6.Proxy Server: It acts as a mediator between local network and large scale network such as internet. It improves the response time if there are many client requestig for the same resource.
+
+HTTPD: 
+	HTTPD stands for Hyper Text Transfer Protocol Daemon.
+	It waits for the request from the client and forwards these requests to the resources specified using HTTP protocol.
+	It runs in the background of an application without getting terminated.
+	
+
+CGI:
+	CGI stands for Common Gateway Interface.
+	It is a protocol that provides a path for the data to be passed from user to application program and from application to user.
+	This is a method to transfer data back and forth between the application and database servers.
+
+
+Console application: 
+It runs in the command prompt or terminal.
+It is a light weight process.
+It does not contain graphical UI.
+Media cannot be displayed in console application. 
+Internet connection is not necessary to run this application.
+The interface is text-based.
+
+
+
+
+
+Web application:
+It runs on a browser using the server which contains a datasource, HTML, CSS and JS files to display the web page.
+It can be accessed from anywhere in the world because all the resources needed for the application resides in a server.
+It is capable of running media files.
+It requires the internet connection to run the application.
+Web browser uses  the HTTP protocol to fetch the data from server.
